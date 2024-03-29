@@ -33,7 +33,7 @@ npx shadcn-ui@latest add separator
 npx shadcn-ui@latest add tabs
 npx shadcn-ui@latest add input
 npx shadcn-ui@latest add scroll-area
-
+npx shadcn-ui@latest add badge
 ```
 
 # Third Party Packages.
