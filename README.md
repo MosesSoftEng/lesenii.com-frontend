@@ -39,6 +39,7 @@ npx shadcn-ui@latest add calendar
 npx shadcn-ui@latest add dropdown-menu
 npx shadcn-ui@latest add avatar
 npx shadcn-ui@latest add textarea
+npx shadcn-ui@latest add label
 ```
 
 # Third Party Packages.

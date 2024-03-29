@@ -12,6 +12,7 @@ import { Calendar } from "./ui/calendar";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Textarea } from "./ui/textarea";
+import { Label } from "./ui/label";
 
 interface MailDisplayProps {
 	mail: Mail | null;
