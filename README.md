@@ -36,7 +36,7 @@ npx shadcn-ui@latest add scroll-area
 npx shadcn-ui@latest add badge
 npx shadcn-ui@latest add popover
 npx shadcn-ui@latest add calendar
-
+npx shadcn-ui@latest add dropdown-menu
 ```
 
 # Third Party Packages.
