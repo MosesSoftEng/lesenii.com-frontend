@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { AccountSwitcher } from "@/components/account-switcher";
 import { Separator } from "@/components/ui/separator";
 import { Nav } from "@/components/nav";
+import { AlertCircle, Archive, ArchiveX, Inbox, MessagesSquare, Send, ShoppingCart, Trash2, Users2, File } from "lucide-react";
 
 interface MailProps {
 	accounts: {

@@ -33,7 +33,7 @@ npx shadcn-ui@latest add select
 
 # Third Party Packages.
 
-## jontai
+## Jotai Package.
 
 A state management library for React.
 
@@ -41,6 +41,16 @@ A state management library for React.
 
 ```bash
 npm install jotai
+```
+
+## Lucide react package.
+
+Lucide is an open-source icon library that provides 1000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects.
+
+[https://lucide.dev/](https://lucide.dev/)
+
+```bash
+npm install lucide-react
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
