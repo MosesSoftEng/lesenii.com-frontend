@@ -4,6 +4,9 @@ import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "./ui/resiz
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { useMail } from "@/lib/state/use-mail";
 import { cn } from "@/lib/utils";
+import { AccountSwitcher } from "@/components/account-switcher";
+import { Separator } from "@/components/ui/separator";
+import { Nav } from "@/components/nav";
 
 interface MailProps {
 	accounts: {
