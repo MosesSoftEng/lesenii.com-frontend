@@ -28,6 +28,7 @@ npx shadcn-ui@0.8.0 init
 npx shadcn-ui@latest add resizable
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add tooltip
+npx shadcn-ui@latest add select
 ```
 
 # Third Party Packages.

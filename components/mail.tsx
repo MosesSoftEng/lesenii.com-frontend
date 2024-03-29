@@ -2,6 +2,8 @@ import React from "react";
 import { type Mail } from "@/lib/data/data";
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "./ui/resizable";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { useMail } from "@/lib/state/use-mail";
+import { cn } from "@/lib/utils";
 
 interface MailProps {
 	accounts: {
@@ -22,9 +24,9 @@ export function Mail({
 	defaultCollapsed = false,
 	navCollapsedSize,
 }: MailProps) {
-  const [isCollapsed, setIsCollapsed] = React.useState(defaultCollapsed)
-  const [mail] = useMail()
-  
+	const [isCollapsed, setIsCollapsed] = React.useState(defaultCollapsed);
+	const [mail] = useMail();
+
 	return (
 		<TooltipProvider delayDuration={0}>
 			<ResizablePanelGroup
@@ -40,7 +42,7 @@ export function Mail({
 					collapsible={true}
 					minSize={15}
 					maxSize={20}
-					onCollapse={(collapsed) => {
+					onCollapse={(collapsed: boolean): void => {
 						setIsCollapsed(collapsed);
 						document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(collapsed)}`;
 					}}
