@@ -11,13 +11,17 @@ Repository for lesenii frontend using Next.js
 npx create-next-app@14.1.4 .
 ```
 
-## Install Shadcn.
+## Install Shadcn version 0.8.0.
 
 ```bash
-
+npx shadcn-ui@0.8.0 init
 ```
 
 
+## Mail UI.
+```bash
+[https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/mail](https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/mail)
+```
 
 
 
