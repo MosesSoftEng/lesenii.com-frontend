@@ -40,6 +40,7 @@ npx shadcn-ui@latest add dropdown-menu
 npx shadcn-ui@latest add avatar
 npx shadcn-ui@latest add textarea
 npx shadcn-ui@latest add label
+npx shadcn-ui@latest add switch
 ```
 
 # Third Party Packages.
