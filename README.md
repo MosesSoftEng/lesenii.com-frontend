@@ -29,6 +29,9 @@ npx shadcn-ui@latest add resizable
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add tooltip
 npx shadcn-ui@latest add select
+npx shadcn-ui@latest add separator
+npx shadcn-ui@latest add tabs
+npx shadcn-ui@latest add input
 ```
 
 # Third Party Packages.
@@ -54,6 +57,16 @@ npm install lucide-react
 ```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Lucide react package.
+
+Toolset for manipulating JavaScript dates.
+
+[https://www.npmjs.com/package/date-fns](https://www.npmjs.com/package/date-fns)
+
+```bash
+npm install date-fns
+```
 
 ## Getting Started
 
