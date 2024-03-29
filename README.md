@@ -32,6 +32,8 @@ npx shadcn-ui@latest add select
 npx shadcn-ui@latest add separator
 npx shadcn-ui@latest add tabs
 npx shadcn-ui@latest add input
+npx shadcn-ui@latest add scroll-area
+
 ```
 
 # Third Party Packages.
