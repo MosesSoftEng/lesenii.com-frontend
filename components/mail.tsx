@@ -7,8 +7,9 @@ import { cn } from "@/lib/utils";
 import { AccountSwitcher } from "@/components/account-switcher";
 import { Separator } from "@/components/ui/separator";
 import { Nav } from "@/components/nav";
-import { AlertCircle, Archive, ArchiveX, Inbox, MessagesSquare, Send, ShoppingCart, Trash2, Users2, File } from "lucide-react";
+import { AlertCircle, Archive, ArchiveX, Inbox, MessagesSquare, Send, ShoppingCart, Trash2, Users2, File, Search } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Input } from "@/components/ui/input";
 
 interface MailProps {
 	accounts: {
