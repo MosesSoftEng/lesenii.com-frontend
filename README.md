@@ -24,22 +24,23 @@ npx shadcn-ui@0.8.0 init
 
 ```
 
-
-
 ```bash
 npx shadcn-ui@latest add resizable
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add tooltip
 ```
 
+# Third Party Packages.
 
+## jontai
 
+A state management library for React.
 
+[https://jotai.org/](https://jotai.org/)
 
-
-
-
-
+```bash
+npm install jotai
+```
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
