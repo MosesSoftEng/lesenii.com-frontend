@@ -4,24 +4,39 @@ Repository for lesenii frontend using Next.js
 
 # Installations.
 
-## Install Next.JS Framework 14.1.4.
+## Install Next.JS Framework version 14.1.4
 
 ```bash
 # Install Next.JS versio 14.1.4 in current directory.
 npx create-next-app@14.1.4 .
 ```
 
-## Install Shadcn version 0.8.0.
+## Install Shadcn version 0.8.0
 
 ```bash
 npx shadcn-ui@0.8.0 init
 ```
 
+## Shadcn Mail UI.
 
-## Mail UI.
 ```bash
 [https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/mail](https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/mail)
+
 ```
+
+
+
+```bash
+npx shadcn-ui@latest add resizable
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add tooltip
+```
+
+
+
+
+
+
 
 
 
@@ -42,8 +57,6 @@ pnpm dev
 bun dev
 ```
 
-
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -54,8 +67,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
