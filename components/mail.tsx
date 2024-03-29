@@ -10,6 +10,7 @@ import { Nav } from "@/components/nav";
 import { AlertCircle, Archive, ArchiveX, Inbox, MessagesSquare, Send, ShoppingCart, Trash2, Users2, File, Search } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
+import { MailList } from "@/components/mail-list";
 
 interface MailProps {
 	accounts: {
