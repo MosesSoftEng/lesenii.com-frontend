@@ -6,9 +6,11 @@ import { Archive, ArchiveX, Clock, Forward, MoreVertical, Reply, ReplyAll, Trash
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import { Mail } from "@/lib/data/data";
 import { Button } from "./ui/button";
-import { Separator, Separator } from "./ui/separator";
+import { Separator } from "./ui/separator";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Calendar } from "./ui/calendar";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
 interface MailDisplayProps {
 	mail: Mail | null;
