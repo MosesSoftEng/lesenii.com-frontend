@@ -52,10 +52,23 @@ export function Mail({
 					collapsible={true}
 					minSize={15}
 					maxSize={20}
-					onCollapse={(collapsed: boolean): void => {
-						setIsCollapsed(collapsed);
-						document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(collapsed)}`;
+					onCollapse={() => {
+						setIsCollapsed(true);
+						console.log("onCollapse isCollapsed: ", isCollapsed);
+
+						document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
+							true
+						)}`
 					}}
+
+					onExpand={ () => {
+						setIsCollapsed(false);
+						console.log("onExpand isCollapsed: ", isCollapsed);
+
+						document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
+							false
+						)}`
+					}					}
 					className={cn(isCollapsed && "min-w-[50px] transition-all duration-300 ease-in-out")}
 				>
 					<div className={cn("flex h-[52px] items-center justify-center", isCollapsed ? "h-[52px]" : "px-2")}>
