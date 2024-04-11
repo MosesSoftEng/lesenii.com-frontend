@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import { type Mail } from "@/lib/data/data";
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "./ui/resizable";
@@ -11,6 +13,7 @@ import { AlertCircle, Archive, ArchiveX, Inbox, MessagesSquare, Send, ShoppingCa
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { MailList } from "@/components/mail-list";
+import { MailDisplay } from "@/components/mail-display";
 
 interface MailProps {
 	accounts: {
