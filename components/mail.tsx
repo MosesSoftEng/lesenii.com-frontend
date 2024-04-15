@@ -44,7 +44,7 @@ export function Mail({
 				onLayout={(sizes: number[]) => {
 					document.cookie = `react-resizable-panels:layout=${JSON.stringify(sizes)}`;
 				}}
-				className="h-full max-h-[800px] items-stretch"
+				className="w-full items-stretch"
 			>
 				<ResizablePanel
 					defaultSize={defaultLayout[0]}

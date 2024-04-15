@@ -30,7 +30,7 @@ export default function Home() {
           className="block dark:hidden"
         />
       </div>
-      <div className="hidden flex-col md:flex">
+      <div className="hidden h-screen flex-col md:flex">
         <Mail
           accounts={accounts}
           mails={mails}

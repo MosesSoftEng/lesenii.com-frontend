@@ -11,6 +11,11 @@ Repository for lesenii frontend using Next.js
 npx create-next-app@14.1.4 .
 ```
 
+## Next.js theme.
+```bash
+npm install next-themes
+```
+
 ## Install Shadcn version 0.8.0
 
 ```bash
@@ -41,6 +46,8 @@ npx shadcn-ui@latest add avatar
 npx shadcn-ui@latest add textarea
 npx shadcn-ui@latest add label
 npx shadcn-ui@latest add switch
+npx shadcn-ui@latest add tooltip
+
 ```
 
 # Third Party Packages.
