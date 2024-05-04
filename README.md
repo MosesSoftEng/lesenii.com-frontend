@@ -138,3 +138,10 @@ npm cache clean --force
 npm install
 npm run dev
 ```
+
+
+
+# Navigation.
+Navigation using Next.js App Router.
+
+## Active link/ Route.

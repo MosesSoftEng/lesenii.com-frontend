@@ -16,21 +16,25 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-    <>
-		<html lang="en">
-			<body className={`${inter.className} min-h-screen bg-background font-sans antialiased`}>
-      <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-				<div vaul-drawer-wrapper="">
-					<div className="relative flex min-h-screen flex-col bg-background">{children}</div>
-				</div>
-        </ThemeProvider>
-			</body>
-		</html>
-    </>
+		<>
+			<html lang="en">
+				<body
+					className={`${inter.className} min-h-screen bg-background font-sans antialiased`}
+				>
+					<ThemeProvider
+						attribute="class"
+						defaultTheme="system"
+						enableSystem
+						disableTransitionOnChange
+					>
+						<div vaul-drawer-wrapper="">
+							<div className="relative flex min-h-screen flex-col bg-background">
+								{children}
+							</div>
+						</div>
+					</ThemeProvider>
+				</body>
+			</html>
+		</>
 	);
 }

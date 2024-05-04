@@ -35,6 +35,7 @@ import { Input } from "@/components/ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { DialogDemo } from "@/components/DialogDemo";
 import { DrawerDialog } from "@/components/drawer-dialog";
+import AppLink from "@/components/navigation/app-link";
 
 export default function DashboardLayout({ children }: any) {
 	return (
@@ -60,46 +61,24 @@ export default function DashboardLayout({ children }: any) {
 							</span>
 						</Button>
 					</div>
+
 					<div className="flex-1">
+						{/* Main Navigation */}
 						<nav className="grid items-start px-2 text-sm font-medium lg:px-4">
-							<Link
-								href="/dashboard"
-								className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+							<AppLink
+								icon={<Home className="h-4 w-4" />}
+								route="/dashboard"
 							>
-								<Home className="h-4 w-4" />
 								Dashboard
-							</Link>
-							<Link
-								href="/dashboard/licenses"
-								className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+							</AppLink>
+
+							<AppLink
+								icon={<Files className="h-4 w-4" />}
+								route="/dashboard/licenses"
+								badgeCount={6}
 							>
-								<Files className="h-4 w-4" />
 								Licenses
-								<Badge className="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full">
-									6
-								</Badge>
-							</Link>
-							<Link
-								href="#"
-								className="flex items-center gap-3 rounded-lg bg-muted px-3 py-2 text-primary transition-all hover:text-primary"
-							>
-								<Package className="h-4 w-4" />
-								Products{" "}
-							</Link>
-							<Link
-								href="#"
-								className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
-							>
-								<Users className="h-4 w-4" />
-								Customers
-							</Link>
-							<Link
-								href="#"
-								className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
-							>
-								<LineChart className="h-4 w-4" />
-								Analytics
-							</Link>
+							</AppLink>
 						</nav>
 					</div>
 					<div className="mt-auto p-4">
@@ -118,7 +97,7 @@ export default function DashboardLayout({ children }: any) {
 					</div>
 				</div>
 			</div>
-			
+
 			<div className="flex flex-col">
 				<header className="flex h-14 items-center gap-4 border-b bg-muted/40 px-4 lg:h-[60px] lg:px-6">
 					<Sheet>
@@ -235,6 +214,7 @@ export default function DashboardLayout({ children }: any) {
 					</DropdownMenu>
 				</header>
 
+				{/* Main */}
 				<main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
 					{children}
 				</main>
