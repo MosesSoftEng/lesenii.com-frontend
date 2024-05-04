@@ -24,8 +24,11 @@ npx shadcn-ui@0.8.0 init
 
 ## Shadcn Mail UI.
 
+## Mail UI.
+
 ```bash
 [https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/mail](https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/mail)
+```
 
 ```
 
@@ -108,6 +111,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 -   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 -   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
