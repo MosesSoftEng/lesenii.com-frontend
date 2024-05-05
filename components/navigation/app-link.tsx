@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { ReactNode } from "react";
 import { Badge } from "../ui/badge";
 
-
 interface AppLinkProps {
 	children: ReactNode;
 	icon?: JSX.Element;
@@ -26,7 +25,7 @@ export default function AppLink({
 	children,
 	icon,
 	route,
-	badgeCount
+	badgeCount,
 }: AppLinkProps): JSX.Element {
 	const pathname = usePathname();
 
@@ -40,7 +39,11 @@ export default function AppLink({
 			{icon && icon}
 			{children}
 
-			{badgeCount && <Badge className="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full">{badgeCount}</Badge>}
+			{badgeCount && (
+				<Badge className="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded-full">
+					{badgeCount}
+				</Badge>
+			)}
 		</Link>
 	);
 }
