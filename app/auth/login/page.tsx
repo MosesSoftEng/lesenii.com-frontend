@@ -16,6 +16,7 @@ import {
 	FormLabel,
 	FormMessage,
 } from "@/components/ui/form";
+import AuthService from "@/lib/services/auth/authService";
 
 // TODO: Convert login form to client component.
 
@@ -33,11 +34,11 @@ export default function LoginPage() {
 		resolver: zodResolver(loginFormSchema),
 	});
 
-	// 2. Define a submit handler.
-	function onSubmit(values: z.infer<typeof loginFormSchema>) {
-		// Do something with the form values.
-		// ✅ This will be type-safe and validated.
-		console.log(values.email);
+	// 2. Define form submit event handler.
+	async function onSubmit(values: z.infer<typeof loginFormSchema>) {
+		const feedback = await AuthService.login(values.email, values.password);
+
+		console.log(feedback);
 	}
 
 	return (

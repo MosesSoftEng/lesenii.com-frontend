@@ -12,6 +12,7 @@ npx create-next-app@14.1.4 .
 ```
 
 ## Next.js theme.
+
 ```bash
 npm install next-themes
 ```
@@ -30,7 +31,7 @@ npx shadcn-ui@0.8.0 init
 [https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/mail](https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/mail)
 ```
 
-```
+````
 
 ```bash
 npx shadcn-ui@latest add resizable
@@ -51,7 +52,7 @@ npx shadcn-ui@latest add label
 npx shadcn-ui@latest add switch
 npx shadcn-ui@latest add tooltip
 
-```
+````
 
 # Third Party Packages.
 
@@ -86,6 +87,23 @@ Toolset for manipulating JavaScript dates.
 ```bash
 npm install date-fns
 ```
+
+
+## 
+
+## References.
+
+1. []()
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -127,8 +145,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
 # Troubleshooting.
+
 ## Error: sh: 1: next: Exec format error.
 
 ```bash
@@ -142,9 +160,8 @@ npm install
 npm run dev
 ```
 
-
-
 # Navigation.
+
 Navigation using Next.js App Router.
 
 ## Active link/ Route.
